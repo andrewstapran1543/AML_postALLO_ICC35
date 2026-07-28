@@ -17,3 +17,9 @@ For step 5 - there are also two excel tables:
   <li>Step5.Splitting_Clusters.xlsx (which clusters require further specification at higher resolution)</li>
   <li>Step5.Cluster_Identities.xlsx (immune phenotype identities for each cluster)</li>
 </ul>
+
+### Survival_Analysis
+Contains the scripts for covnerting the immune population counts to fractions and ratios, running the main survival analyses
+
+### Visualisations
+Contains the scripts for visualisation of the flow cytometry data and survival analysis findings
