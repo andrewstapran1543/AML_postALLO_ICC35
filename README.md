@@ -1,7 +1,8 @@
 # Day-35 immune cell composition (ICC35) is associated with overall survival post allogeneic stem cell transplantation
 This is a GitHub repository containing main pieces of code for the ICC35 score publication. Below is the description for what each file does:
 
-The following folder <b>Delete Data_Preprocessing_Integration_Clustering</b> contains the scripts for initial preprocessing, integration & clustering of the flow cytometry data:
+### Delete Data_Preprocessing_Integration_Clustering
+Contains the scripts for initial preprocessing, integration & clustering of the flow cytometry data:
 <ul>
   <li>Step1.Removing_TopBottom_0.01%Percentiles.R</li>
   <li>Step2.2.cyCondor_SubsettingForVisualisation.R</li>
