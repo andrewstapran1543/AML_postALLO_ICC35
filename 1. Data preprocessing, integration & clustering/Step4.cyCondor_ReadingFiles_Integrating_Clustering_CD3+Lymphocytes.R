@@ -1,9 +1,9 @@
 ####################################
 #### Activating the environment ####
 ####################################
-working_directory_path <- "/g/zaugg/stapran/PhD_Projects/FACS_FlowSum_Seurat_Analysis"
+working_directory_path <- "~/FACS_FlowSum_Seurat_Analysis"
 setwd(working_directory_path)
-environment_path <- "/g/zaugg/stapran/PhD_Projects/FACS_FlowSum_Seurat_Analysis/renv/library/linux-rocky-8.8/R-4.4/x86_64-pc-linux-gnu"
+environment_path <- "~/FACS_FlowSum_Seurat_Analysis/renv/library/linux-rocky-8.8/R-4.4/x86_64-pc-linux-gnu"
 .libPaths(environment_path)
 renv::activate()
 
