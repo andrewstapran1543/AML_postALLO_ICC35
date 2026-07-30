@@ -19,8 +19,8 @@ For step 5 - there are also two excel tables:
 </ul>
 
 ### Survival_Analysis
-Contains the scripts for covnerting the immune population counts to fractions and ratios, running the main survival analyses
-Subfolder <b>Cause-specific proportional hazard models</b> contains scripts for testing every immune parameter in different cause-specific proportional hazard model setups. These python scripts were run on the computational cluster via <i>slurm sbatch scripts</i>.
+Contains the scripts for covnerting the immune population counts to fractions and ratios, running the main survival analyses<br></br>
+Subfolder <b>Cause-specific proportional hazard models</b> contains scripts for testing every immune parameter in different cause-specific proportional hazard model setups. These python scripts were run on the computational cluster via <i>slurm sbatch</i> scripts.
 <ul>
   <li>CauseSpecificHazardModel_CompetingRisks_Relapse_cGVHD_and_aGVHD.py (competing risks are relapse and either aGVHD or cGVHD)</li>
   <li>CauseSpecificHazardModel_CompetingRisks_Relapse_cGVHD_or_aGVHD.py (competing risks are relapse, cGVHD, and aGVHD)</li>
@@ -32,6 +32,7 @@ Subfolder <b>Univariate & Multivariate Cox proportional hazard (CPH) models</b> 
   <li>Scripts for running the univariate/ multivariate Cox proportional hazard analyses (for clinical covariates and/or ICC35 score)</li>
   <li>Technical checks on ICC35 score (association with other covariates, selecting penalizer values for multivariate models)</li>
 </ol>
+The scripts are:
 <ul>
   <li>Running_Multivariate_Analysis.ipynb (main Jupyter notebook for running the multivariate CPH models)</li>
   <li>Running_Univariate_Multivariate_Analysis_ClinVars_only.ipynb (Jupyter notebook for running the univariate and multivariate CPH models only for clinical covariates)</li>
