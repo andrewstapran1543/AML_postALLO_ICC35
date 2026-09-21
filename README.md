@@ -22,8 +22,8 @@ For step 5 - there are also two excel tables:
 Contains the scripts for covnerting the immune population counts to fractions and ratios, running the main survival analyses<br></br>
 Subfolder <b>Cause-specific proportional hazard models</b> contains scripts for testing every immune parameter in different cause-specific proportional hazard model setups. These python scripts were run on the computational cluster via <i>slurm sbatch</i> scripts.
 <ul>
-  <li><i>CauseSpecificHazardModel_CompetingRisks_Relapse_cGVHD_and_aGVHD.py</i> (competing risks are relapse and either aGVHD or cGVHD)</li>
-  <li><i>CauseSpecificHazardModel_CompetingRisks_Relapse_cGVHD_or_aGVHD.py</i> (competing risks are relapse, cGVHD, and aGVHD)</li>
+  <li><i>CauseSpecificHazardModel_CompetingRisks_Relapse_cGVHD_and_aGVHD.py</i> (competing risks are relapse, cGVHD, and aGVHD)</li>
+  <li><i>CauseSpecificHazardModel_CompetingRisks_Relapse_cGVHD_or_aGVHD.py</i> (competing risks are relapse and either aGVHD or cGVHD)</li>
   <li><i>CauseSpecificHazardModel_GRFS.py</i> (cause-specific proportional hazard modelling for GVHD/relapse-free survival - competing events are relapse and aGVHD/cGVHD)</li>
   <li><i>CauseSpecificHazardModel_NRM.py</i> (cause-specific proportional hazard modelling for non-relapse mortality)</li>
 </ul>
